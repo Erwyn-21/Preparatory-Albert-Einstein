@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preparatoria Albert Einstein - Tulancingo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #800000; /* vino */
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #FFD700; /* amarillo */
+    }
+    nav a {
+      color: #800000;
+      text-decoration: none;
+      padding: 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #800000;
+      color: white;
+    }
+    section {
+      padding: 50px 20px;
+    }
+    .historia, .oferta, .instalaciones, .contacto {
+      background-color: #f9f9f9;
+    }
+    .galeria img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    .contacto form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: auto;
+    }
+    .contacto input, .contacto textarea {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #800000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Preparatoria Albert Einstein</h1>
+    <p>Tulancingo, Hidalgo</p>
+    <!-- Logo se insertará aquí -->
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#historia">Nosotros</a>
+    <a href="#oferta">Oferta Educativa</a>
+    <a href="#instalaciones">Instalaciones</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Bienvenidos a la Preparatoria Albert Einstein</h2>
+    <p>Formando estudiantes con excelencia académica y valores humanos.</p>
+  </section>
+
+  <section id="historia" class="historia">
+    <h2>Historia</h2>
+    <p>La Preparatoria Albert Einstein fue fundada con el compromiso de brindar una educación de calidad en Tulancingo. Nuestra misión es formar jóvenes críticos, responsables y preparados para enfrentar los retos del futuro.</p>
+  </section>
+
+  <section id="oferta" class="oferta">
+    <h2>Oferta Educativa</h2>
+    <ul>
+      <li>Bachillerato General</li>
+      <li>Programas de apoyo académico</li>
+      <li>Talleres extracurriculares</li>
+      <li>Actividades deportivas y culturales</li>
+    </ul>
+  </section>
+
+  <section id="instalaciones" class="instalaciones">
+    <h2>Instalaciones</h2>
+    <p>Contamos con aulas equipadas, laboratorio de cómputo, biblioteca y espacios deportivos. Aquí puedes incluir fotos:</p>
+    <div class="galeria">
+      <!-- Aquí puedes insertar tus imágenes -->
+      <img src="imagen1.jpg" alt="Instalación 1">
+      <img src="imagen2.jpg" alt="Instalación 2">
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo electrónico" required>
+      <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Preparatoria Albert Einstein | Tulancingo, Hgo.</p>
+  </footer>
+</body>
+</html>
